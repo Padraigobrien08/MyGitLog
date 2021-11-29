@@ -3,8 +3,6 @@ package sample;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class PasswordTest {
     String string  = "krgjwba4325!!";
 
@@ -27,4 +25,7 @@ class PasswordTest {
     void emptyCheck() {
         Assertions.assertTrue(Password.emptyCheck(string));
     }
+
+    @Test
+    void lengthCheck() {Assertions.assertTrue(Password.lengthCheck(string));}
 }

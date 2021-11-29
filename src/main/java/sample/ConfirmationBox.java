@@ -2,13 +2,14 @@ package sample;
 
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-import java.security.cert.PolicyNode;
+/**
+ * This class acts as the Presenter in the MVP structure, it takes the output decision from the model and presents it to the applicant in the form of a confirmation box
+ */
 
 
 public class ConfirmationBox {

@@ -3,10 +3,9 @@ package sample;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class UsernameTest {
-    String string = "GavinJames@gmail.com";
+    String string = "GavinJames11@gmail.com";
 
     @Test
     void alphabetCheck() {
@@ -27,4 +26,5 @@ class UsernameTest {
     void emptyCheck() {
         Assertions.assertTrue(Username.emptyCheck(string));
     }
+
 }
